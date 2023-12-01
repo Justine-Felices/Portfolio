@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM</title>
+  </head>
+  <body>
+    <button>hello</button>
+    <button class="js-button">second button</button>
+
+    <script>
+      console.log(document.querySelector("button").innerHTML);
+
+      document.querySelector("button").innerHTML = "Changed"; //change the text of the button
+      document.querySelector(".js-button").innerHTML = "Changed 2";
+      const buttonElement = document.querySelector(".js-button");
+      buttonElement.innerHTML = "Changed 3";
+
+      //   console.log(document.title);
+      //   document.title = "Changed";
+
+      //   console.log(document.body);
+      //   console.log(typeof document.body);
+
+      //   console.log(document.body.innerHTML);
+      //   document.body.innerHTML = "<h1>Hi</h1>";
+
+      //   document.body.innerHTML = "hi";
+      //   document.title = "Good bay";
+    </script>
+  </body>
+</html>

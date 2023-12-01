@@ -1,0 +1,82 @@
+body {
+  background-color: #ceb5b7;
+}
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  border-radius: 15px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.js-name-input {
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.js-date {
+  height: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.js-delete-button,
+.js-add-button {
+  color: black;
+  border: none;
+  width: 60px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.js-add-button {
+  background-color: #9cf6f6;
+}
+.js-delete-button {
+  background-color: #ff7477;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 114.8px 60px;
+  column-gap: 5px;
+  margin-bottom: 10px;
+}
+.js-todo-container {
+  display: grid;
+  grid-template-columns: 200px 114.8px 60px;
+  gap: 5px;
+  background-color: #b5d6d6;
+  border-radius: 5px;
+  align-items: center;
+}
+.todo-item {
+  display: grid;
+  grid-template-columns: 200px 114.8px 200px;
+  /* background-color: #efe6d5; */
+  /* border-radius: 5px; */
+  /* padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}

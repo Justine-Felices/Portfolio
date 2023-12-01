@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(20, 18, 18);
+}
+p,
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.rock-emoji,
+.scissor-emoji,
+.paper-emoji {
+  width: 50px;
+}
+.rock-button,
+.paper-button,
+.scissor-button {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(20, 18, 18);
+  border: 3px solid white;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.rock-emoji:hover,
+.paper-emoji:hover,
+.scissor-emoji:hover {
+  width: 70px;
+  transition: 0.5s;
+}
+.rock-emoji:not(hover),
+.paper-emoji:not(hover),
+.scissor-emoji:not(hover) {
+  width: 50px;
+  transition: 0.5s;
+}
+.js-result {
+  font-weight: bold;
+}
+.js-reset {
+  color: rgb(206, 206, 52);
+  background-color: rgb(20, 18, 18);
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 32px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-score-flex-container {
+  display: flex;
+  justify-content: center;
+}

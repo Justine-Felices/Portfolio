@@ -1,0 +1,44 @@
+.js-subscribe-button {
+  background-color: #000;
+  color: white;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  cursor: pointer;
+  width: 87px;
+  height: 25px;
+  transition: 0.5s;
+}
+.js-subscribe-button:hover {
+  background-color: rgb(110, 106, 106);
+  border: none;
+  color: white;
+}
+.js-subscribe-button:active {
+  background-color: rgb(110, 106, 106);
+  border: none;
+  color: white;
+}
+.js-input {
+  width: 200px;
+  height: 25px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+.calculate {
+  background-color: green;
+  color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  cursor: pointer;
+  width: 87px;
+  height: 25px;
+  transition: 0.5s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
